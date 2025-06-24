@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SAHARA ENTERPRISES</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+   <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+ <header class="navbar">
+  <div class="logo">
+    <img src="logo.gif" alt="Logo" style=align-items: center;>
+    <span>SAHARA <strong>ENTERPRISES</strong></span>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+  </div>
+
+  <nav id="nav-menu">
+    <ul class="nav-links">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Manufacturing ▼</a></li>
+      <li><a href="#">Quality Assurance ▼</a></li>
+      <li><a href="#">Products ▼</a></li>
+      <li><a href="#">Our Customers ▼</a></li>
+      <li><a class="btn" href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Hero Banner -->
+  <div class="banner">
+    <div class="text-box">
+
+      <h1 class="main-title">Sahara</h1>
+      <h2 class="sub-title">ENTERPRISES</h2>
+      <p class="slogan">Your trusted source for safety</p>
+    </div>
+  </div>
+
+  <!-- Carousel Section -->
+  <section class="carousel-section" id="carousel-section">
+    <div class="carousel-container">
+      <button class="nav prev">&#10094;</button>
+
+      <div class="carousel-track">
+        <div class="slide active" data-bg="#001f3f">
+          <img src="banner1.jpg" alt="Workshop">
+          <div class="caption">Skill & Entrepreneurship</div>
+        </div>
+        <div class="slide" data-bg="#ff851b">
+          <img src="banner2.jpg" alt="Training">
+          <div class="caption">Workshops in Colleges</div>
+        </div>
+        <div class="slide" data-bg="#2ecc40">
+          <img src="banner3.png" alt="Startups">
+          <div class="caption">Startup Development</div>
+        </div>
+        <!-- Cloned first slide for infinite loop -->
+        <div class="slide" data-bg="#001f3f">
+          <img src="banner1.jpg" alt="Workshop">
+          <div class="caption">Skill & Entrepreneurship</div>
+        </div>
+      </div>
+
+      <button class="nav next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-container">
+      <h2>About Sahara Enterprises</h2>
+      <p>
+        Sahara Enterprises is a leading manufacturer and supplier of high-quality industrial solutions.
+        With a strong focus on quality and innovation, we specialize in providing world-class safety
+        products, precision manufacturing, and unmatched customer satisfaction. Our state-of-the-art
+        infrastructure, skilled team, and strict quality control help us deliver excellence in every product.
+      </p>
+
+      <p>
+        Our mission is to ensure that safety, reliability, and performance are at the core of every
+        product we deliver. With years of experience in the industry, Rose Industries continues to grow
+        with a commitment to "Quality as a Habit".
+      </p>
+    </div>
+  </section>
+
+
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Light background for the main page */
+        }
+        /* Custom styles for the map image to ensure it covers the area */
+        .map-placeholder img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+            border-radius: 0.5rem; /* rounded-lg */
+        }
+        /* Scroll to top button */
+        #scrollToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 20px; /* Place at the bottom */
+            right: 20px; /* Place at the right */
+            z-index: 99; /* Ensure it's on top */
+            background-color: #f97316; /* Orange background */
+            color: white; /* White text */
+            border: none; /* No border */
+            border-radius: 9999px; /* Fully rounded */
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            line-height: 50px; /* Center icon vertically */
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        #scrollToTopBtn:hover {
+            background-color: #ea580c; /* Darker orange on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-300 py-10 px-4 sm:px-6 lg:px-8 relative">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- Quick Links -->
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg font-semibold mb-4 border-b-2 border-orange-500 pb-2 rounded-lg">QUICK LINKS</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> About Us</a></li>
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Products</a></li>
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Careers</a></li>
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Contact Us</a></li>
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Customer List</a></li>
+                </ul>
+            </div>
+
+            <!-- Quality Assurance -->
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg font-semibold mb-4 border-b-2 border-orange-500 pb-2 rounded-lg">QUALITY ASSURANCE</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Quality</a></li>
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Testing Facilities</a></li>
+                </ul>
+            </div>
+
+            <!-- Manufacturing -->
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg font-semibold mb-4 border-b-2 border-orange-500 pb-2 rounded-lg">MANUFACTURING</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-orange-400 transition duration-300 flex items-center"><i class="fas fa-arrow-right text-orange-500 mr-2"></i> Cotton Cutting</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg font-semibold mb-4 border-b-2 border-orange-500 pb-2 rounded-lg">CONTACT US</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-orange-500 text-xl mr-3 mt-1"></i>
+                        <div>
+                            <p class="text-white font-semibold">Rose Industries</p>
+                            <p>Shop no. 25, Krushi Utpanna Bazar Samiti Complex, Sinner-Shridi Road,Sinner,Nashik-422 103 Landline: 02551-223101</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-phone-alt text-orange-500 text-xl mr-3"></i>
+                        <p>Digamber Pagar </p>
+                        <p>9923625222</p>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope text-orange-500 text-xl mr-3"></i>
+                        <p>saharaent1@gmail.com</p>
+                    </div>
+                    <div class="flex space-x-3 mt-4">
+                        <a href="#" class="w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center rounded-full transition duration-300 shadow-md">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-sky-500 hover:bg-sky-600 text-white flex items-center justify-center rounded-full transition duration-300 shadow-md">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-red-600 hover:bg-red-700 text-white flex items-center justify-center rounded-full transition duration-300 shadow-md">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="max-w-7xl mx-auto mt-10 rounded-lg overflow-hidden border-2 border-gray-700">
+            <div class="map-placeholder w-full h-64 md:h-80 lg:h-96 bg-gray-700 flex items-center justify-center text-gray-400 text-center relative">
+                <!-- Using a placeholder image for the map, replace with actual map embed code if needed -->
+                <img src="https://www.google.com/maps/search/shop+no+25+krushi+utpanna+bazar+samiti+complex,+sinner+shirdi+road+sinner+nashik-422103/@19.8456779,74.0063072,43m/data=!3m1!1e3!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D"
+                     onerror="this.src='https://www.google.com/maps/search/shop+no+25+krushi+utpanna+bazar+samiti+complex,+sinner+shirdi+road+sinner+nashik-422103/@19.8456779,74.0063072,43m/data=!3m1!1e3!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D';"
+                     alt="Map Placeholder for Rose Industries">
+                <!-- Overlay for map details as seen in the image -->
+                <div class="absolute bottom-4 left-4 p-2 bg-white bg-opacity-90 text-gray-800 rounded-lg shadow-lg text-sm">
+                    <p class="font-semibold text-orange-600">Sahara Enterprises</p>
+                    <p>bazar Samiti</p>
+                    <p>Google</p>
+                    <div class="flex justify-between mt-1 text-xs">
+                        <a href="#" class="text-blue-600 hover:underline">Keyboard shortcuts</a>
+                        <span class="mx-1">|</span>
+                        <a href="#" class="text-blue-600 hover:underline">Map data &copy;2023</a>
+                        <span class="mx-1">|</span>
+                        <a href="#" class="text-blue-600 hover:underline">Terms</a>
+                        <span class="mx-1">|</span>
+                        <a href="#" class="text-blue-600 hover:underline">Report a map error</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="max-w-7xl mx-auto text-center mt-10 border-t border-gray-700 pt-6">
+            <p class="text-sm">&copy; 2021 Sahara Enterprises. All Rights Reserved.</p>
+            <p class="text-xs mt-1">Powered by <a href="#" class="text-orange-500 hover:underline">Ayush Pagar</a></p>
+            <p class="text-xs mt-1">Git hub account <a href="#" class="text-orange-500 hover:underline">github.com/ayushpagar22/</a></p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Get the button
+        let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        scrollToTopBtn.addEventListener("click", function() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
+    </script>
+
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
